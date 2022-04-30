@@ -94,4 +94,6 @@ html_theme = 'furo'
    }
 ```
 
-   
+### 使用 [autosummary](https://www.sphinx-doc.org/en/master/usage/extensions/autosummary.html#generating-stub-pages-automatically)
+
+- pytorch 文档中使用了这个扩展，它会插入一个表格，其中包含指向文档项目的链接，以及每个项目的简短摘要简介（文档字符串的第一句）。
